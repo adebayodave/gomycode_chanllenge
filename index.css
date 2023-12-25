@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: #f6f6f9;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+}
+
+header h2 {
+    color: blue;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+header h2 .danger {
+    color: red;
+}
+
+nav {
+    text-align: end;
+    margin-left: 30%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    justify-content: end;
+    color: rgba(206, 210, 221, 0.89);
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(128, 128, 216, 0.95);
+    width: 100px;
+    display: block;
+    margin-top: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+header nav ul .login {
+    margin-left: 70px;
+}
+
+header nav ul .login {
+    color: #d60718;
+}
+
+nav a:hover {
+    text-shadow: #f6f6f9;
+    background: white;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold;
+    color: steelblue;
+}
+
+.main {
+    width: 96vw;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 10px;
+    height: 50%;
+}
+
+.lerft-aside {
+    padding: 10px;
+    width: 60%;
+    background: #dfe0e6;
+    border-radius: 20px;
+}
+
+.main-content .lerft-aside h2 {
+    color: rgba(43, 75, 43, 0.89);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main-content .lerft-aside .books-purchase {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    gap: 4rem;
+    border-radius: 15px;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 40px;
+    width: 90vw;
+    height: 15vh; */
+}
+
+.main-content .lerft-aside p {
+    color: #363949;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.right-aside {
+    background: #aeb7e0;
+    width: 20%;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.right-aside .authors h2 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: rgb(6, 175, 175);
+    font-style: italic;
+}
+
+.right-aside .authors {
+    /* text-align: center; */
+    justify-content: center;
+    gap: 2rem;
+    color: rgba(43, 75, 43, 0.80);
+    ;
+}
+
+.olu {
+    color: #d60718;
+}
