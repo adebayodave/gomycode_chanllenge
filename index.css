@@ -155,3 +155,23 @@ h1 {
 .olu {
     color: #d60718;
 }
+
+#about{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+
+}
+.about{
+    width: 30%;
+    
+}
+.Join{
+    width: 30%;
+}
+.location{
+    width: 30%;
+}
